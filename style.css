@@ -707,17 +707,18 @@ footer h2{
  #footer_Copyright{
      background-color: #644439;
      width:100%;
-     height: 150px;
+     height: max-content;
      justify-content: space-between;
      display: inline-flex;
  }
  #footer_Copyright p{
+     margin: 5px;
     padding-left:50px;
     padding-right:50px;
     color:#d9c6b5bb ;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 70px;
+    
     
 }
 #footer_Copyright p a{
